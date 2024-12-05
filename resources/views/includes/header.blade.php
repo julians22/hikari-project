@@ -1,10 +1,10 @@
 <header>
     <nav>
 
-        <div class="container mx-auto py-2 pr-4 flex justify-between items-center">
+        <div class="container mx-auto py-3 pr-4 flex justify-between items-center">
             {{-- Logo --}}
 
-            <div class="brand max-w-56">
+            <div class="brand lg:max-w-36 2xl:max-w-56">
                 <a href="#">
                     <img src="{{ asset('img/logo.png') }}" class="w-full" alt="Logo">
                 </a>
