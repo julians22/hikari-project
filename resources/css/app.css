@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+    .image-menu-wrapper{
+        @apply absolute inset-0 z-10;
+    }
+
+    .image-menu-wrapper .image-menu-item{
+        @apply w-full h-full z-10 absolute opacity-0;
+    }
+
+    .image-menu-wrapper .image-menu-item.active{
+        @apply opacity-100;
+    }
+
+    .tooltip-wrapper button.btn{
+        @apply opacity-0;
+    }
+
+    .tooltip-wrapper button.btn.active{
+        @apply opacity-100;
+    }
+
+    .tooltip{
+        @apply bg-primary-yellow text-black text-lg font-bold absolute pl-6 pr-10 py-2 clip-skew opacity-0 transition-all duration-300 text-center w-56 top-[80%] left-full;
+    }
+
+    .tooltip.active{
+        @apply opacity-100;
+    }
+
+    .btn{
+        @apply px-4 py-2 bg-primary-yellow text-black rounded-md inline-flex justify-center items-center font-bold;
+    }
+
+    .btn.btn-sm{
+        @apply px-3 py-1 text-sm;
+    }
+
+    .btn.btn-md{
+        @apply px-4 py-2 text-base;
+    }
+
+    .btn.btn-lg{
+        @apply px-6 py-3 text-lg;
+    }
+
+    .btn.btn-skew{
+        @apply relative bg-primary-yellow text-black overflow-hidden rounded-none pl-4 pr-8 clip-skew;
+    }
+
+    .btn.btn-sm.btn-skew{
+        @apply pl-3 pr-6;
+    }
+
+    .btn.btn-md.btn-skew{
+        @apply pl-4 pr-8;
+    }
+
+    .btn.btn-lg.btn-skew{
+        @apply pl-6 pr-10;
+    }
+
+    .btn.btn-skew span{
+        @apply relative z-10;
+    }
+}
+
+@layer utilities{
+    .clip-skew{
+        clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    }
+}
