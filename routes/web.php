@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('enertek', function () {
+    return view('enertek');
+});
+
+Route::get('penta-sarana', function () {
+    return view('penta-sarana');
+});
