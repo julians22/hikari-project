@@ -108,12 +108,12 @@
             </div>
         </div>
 
-        <div class="container mx-auto pb-10">
+        <div id="about" class="container mx-auto pb-10 scroll-mt-40">
             <img src="{{ asset('img/data/content-1.png') }}" alt="" class="w-full">
         </div>
     </section>
 
-    <section class="bg-primary-yellow py-10">
+    <section id="services" class="bg-primary-yellow py-10 scroll-mt-24">
         <div class="container mx-auto">
             <img src="{{ asset('img/data/content-2.png') }}" alt="" class="w-full">
         </div>
@@ -123,7 +123,7 @@
         <img src="{{ asset('img/data/content-3.png') }}" alt="" class="w-full">
     </section>
 
-    <section>
+    <section id="projects" class="scroll-mt-24">
         <img src="{{ asset('img/data/content-4.png') }}" alt="" class="w-full">
     </section>
 
@@ -133,25 +133,25 @@
         </div>
     </section>
 
-    <section class="py-10">
+    <section id="benefits" class="py-10 scroll-mt-24">
         <div class="container mx-auto">
             <img src="{{ asset('img/data/content-6.png') }}" alt="" class="w-full">
         </div>
     </section>
 
-    <section class="bg-primary-yellow py-10">
+    <section id="groups" class="bg-primary-yellow py-10 scroll-mt-24">
         <div class="container mx-auto">
             <img src="{{ asset('img/data/content-7.png') }}" alt="" class="w-full">
         </div>
     </section>
 
-    <section class="py-10">
+    <section id="articles" class="py-10 scroll-mt-24">
         <div class="container mx-auto">
             <img src="{{ asset('img/data/content-8.png') }}" alt="" class="w-full">
         </div>
     </section>
 
-    <section class="bg-primary-yellow py-10">
+    <section id="contact" class="bg-primary-yellow py-10">
         <div class="container mx-auto">
             <img src="{{ asset('img/data/content-9.png') }}" alt="" class="w-full">
         </div>
