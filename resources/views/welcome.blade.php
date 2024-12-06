@@ -3,7 +3,6 @@
 @section('content')
     <section class="overflow-hidden">
         <div class="container mx-auto">
-
             <div class="image-container xl:h-[789px] min-[1366px]:h-[850px] min-[1440px]:h-[900px] 2xl:h-[960px] min-[1920px]:h-[1240px] aspect-square relative -mt-28 -mb-20 mx-auto">
 
                 <img draggable="false" src="{{ asset('img/front-text.png') }}" alt="" class="absolute z-[7] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-screen max-w-none">
@@ -107,10 +106,57 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-
+        <div class="container mx-auto pb-10">
+            <img src="{{ asset('img/data/content-1.png') }}" alt="" class="w-full">
         </div>
     </section>
+
+    <section class="bg-primary-yellow py-10">
+        <div class="container mx-auto">
+            <img src="{{ asset('img/data/content-2.png') }}" alt="" class="w-full">
+        </div>
+    </section>
+
+    <section>
+        <img src="{{ asset('img/data/content-3.png') }}" alt="" class="w-full">
+    </section>
+
+    <section>
+        <img src="{{ asset('img/data/content-4.png') }}" alt="" class="w-full">
+    </section>
+
+    <section class="bg-primary-yellow py-10">
+        <div class="container mx-auto">
+            <img src="{{ asset('img/data/content-5.png') }}" alt="" class="w-full">
+        </div>
+    </section>
+
+    <section class="py-10">
+        <div class="container mx-auto">
+            <img src="{{ asset('img/data/content-6.png') }}" alt="" class="w-full">
+        </div>
+    </section>
+
+    <section class="bg-primary-yellow py-10">
+        <div class="container mx-auto">
+            <img src="{{ asset('img/data/content-7.png') }}" alt="" class="w-full">
+        </div>
+    </section>
+
+    <section class="py-10">
+        <div class="container mx-auto">
+            <img src="{{ asset('img/data/content-8.png') }}" alt="" class="w-full">
+        </div>
+    </section>
+
+    <section class="bg-primary-yellow py-10">
+        <div class="container mx-auto">
+            <img src="{{ asset('img/data/content-9.png') }}" alt="" class="w-full">
+        </div>
+    </section>
+
 @endsection
 
 @push('after-scripts')

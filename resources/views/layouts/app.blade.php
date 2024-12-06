@@ -13,7 +13,7 @@
 
         @yield('content')
 
-
+        @include('includes.footer')
     </div>
 
     @stack('after-scripts')
