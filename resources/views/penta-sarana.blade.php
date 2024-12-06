@@ -8,6 +8,9 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <img src="{{ asset('img/page/penta-sarana.webp') }}" alt="" class="w-screen">
+    <a href="{{ route('web1') }}">
+        <img src="{{ asset('img/page/nav-penta-sarana.png') }}" alt="" class="w-screen">
+    </a>
+    <img src="{{ asset('img/page/penta-sarana.png') }}" alt="" class="w-screen">
 </body>
 </html>

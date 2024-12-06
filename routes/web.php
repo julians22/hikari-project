@@ -15,12 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
-
-Route::get('enertek', function () {
-    return view('enertek');
-});
+})->name('web1');
 
 Route::get('penta-sarana', function () {
     return view('penta-sarana');
-});
+})->name('web2');
+
+Route::get('enertek', function () {
+    return view('enertek');
+})->name('web3');
+

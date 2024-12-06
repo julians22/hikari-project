@@ -110,6 +110,15 @@
 
         <div id="about" class="container mx-auto pb-10 scroll-mt-40">
             <img src="{{ asset('img/data/content-1.png') }}" alt="" class="w-full">
+            <div class="grid grid-cols-3">
+                <img src="{{ asset('img/data/content-1.1.png') }}" alt="" class="w-full">
+                <a href="{{ route('web2') }}">
+                    <img src="{{ asset('img/data/content-1.2.png') }}" alt="" class="w-full">
+                </a>
+                <a href="{{ route('web3') }}">
+                    <img src="{{ asset('img/data/content-1.3.png') }}" alt="" class="w-full">
+                </a>
+            </div>
         </div>
     </section>
 
